@@ -1,15 +1,15 @@
 import streamlit as st
 from streamlit_image_comparison import image_comparison
-import cv2
+#import cv2
 
 
 st.set_page_config("Segment All Model For segmenting forest", "")
 
 st.header("Satellite Image compared with Segmented Forest")
 
-st.image(
-    cv2.cvtColor(cv2.imread("imgs/cover.png"), cv2.COLOR_BGR2RGB),
-)
+#st.image(
+#    cv2.cvtColor(cv2.imread("imgs/cover.png"), cv2.COLOR_BGR2RGB),
+#)
 
 
 st.write("")
